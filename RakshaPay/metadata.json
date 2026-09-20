@@ -1,0 +1,6 @@
+{
+  "name": "ScamShield",
+  "description": "AI-powered UPI scam prevention and community-driven scam intelligence. Detect, explain, learn, and protect before authorizing payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

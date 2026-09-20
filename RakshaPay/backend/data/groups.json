@@ -1,0 +1,9 @@
+[
+  {"id":"upi-awareness","name":"UPI Scam Awareness","description":"UPI collect requests, QR traps and payment safety.","members":128},
+  {"id":"kyc-bank","name":"KYC & Bank Scams","description":"Bank impersonation, KYC and account-blocking scams.","members":96},
+  {"id":"fake-support","name":"Fake Customer Support","description":"Fake helplines, refund calls and support impersonation.","members":74},
+  {"id":"job-scams","name":"Job Scams","description":"Fake jobs, task scams and advance-fee requests.","members":61},
+  {"id":"investment","name":"Investment Scams","description":"Fraudulent trading, investment and guaranteed-return schemes.","members":54},
+  {"id":"qr-scams","name":"QR Code Scams","description":"QR-code payment traps and receive-money deception.","members":47},
+  {"id":"senior-safety","name":"Senior Citizen Safety","description":"Simple warnings and scam discussions for families and seniors.","members":39}
+]

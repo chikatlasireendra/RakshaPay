@@ -1,0 +1,22 @@
+[
+  {
+    "id": "usr-demo",
+    "name": "Aarav Patel",
+    "email": "demo@scamshield.app",
+    "role": "user",
+    "avatarUrl": "avatar-human-1",
+    "phoneNumber": "+91 98765 43210",
+    "createdAt": "2025-11-12",
+    "analysesCount": 17,
+    "reportsSubmitted": 3,
+    "reportsVerified": 2,
+    "confirmedThreatsCount": 2,
+    "savedPatterns": [
+      "pattern-kyc",
+      "pattern-refund",
+      "pattern-bank"
+    ],
+    "trustScore": 98,
+    "passwordHash": "pbkdf2_sha256$120000$4a8e986e2a736be8f04561c7c46736e7$bd11dacb23100a107a617700a4aaa01509f677c51be8da86ca92d61c9407b3fb"
+  }
+]

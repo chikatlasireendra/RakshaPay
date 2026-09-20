@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Tailwind v4: make the dark theme respond to the app's .dark class. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  transition: background-color 320ms ease, color 320ms ease;
+}
+
+.dark body {
+  background: #020617;
+}
+
+button, a, input, textarea, select, [role="button"] {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: rgba(79, 70, 229, 0.25);
+}
+
+/* Gentle page-level motion; component hover animations remain controlled by Motion/Tailwind. */
+.page-transition {
+  will-change: opacity, transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
